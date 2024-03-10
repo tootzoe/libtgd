@@ -7,10 +7,171 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		437402DA2B9DE22F004A6441 /* gd_ss.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402982B9DE22F004A6441 /* gd_ss.c */; };
+		437402DB2B9DE22F004A6441 /* gd_filename.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402992B9DE22F004A6441 /* gd_filename.c */; };
+		437402DC2B9DE22F004A6441 /* gd_matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 4374029A2B9DE22F004A6441 /* gd_matrix.c */; };
+		437402DD2B9DE22F004A6441 /* gd_tiff.c in Sources */ = {isa = PBXBuildFile; fileRef = 4374029B2B9DE22F004A6441 /* gd_tiff.c */; };
+		437402DE2B9DE22F004A6441 /* gdfontt.h in Headers */ = {isa = PBXBuildFile; fileRef = 4374029C2B9DE22F004A6441 /* gdfontt.h */; };
+		437402DF2B9DE22F004A6441 /* gd_topal.c in Sources */ = {isa = PBXBuildFile; fileRef = 4374029D2B9DE22F004A6441 /* gd_topal.c */; };
+		437402E02B9DE22F004A6441 /* gdfx.h in Headers */ = {isa = PBXBuildFile; fileRef = 4374029E2B9DE22F004A6441 /* gdfx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437402E12B9DE22F004A6441 /* gdxpm.c in Sources */ = {isa = PBXBuildFile; fileRef = 4374029F2B9DE22F004A6441 /* gdxpm.c */; };
+		437402E22B9DE22F004A6441 /* gd_nnquant.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402A02B9DE22F004A6441 /* gd_nnquant.h */; };
+		437402E32B9DE22F004A6441 /* gdft.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402A12B9DE22F004A6441 /* gdft.c */; };
+		437402E42B9DE22F004A6441 /* gdcache.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402A22B9DE22F004A6441 /* gdcache.h */; };
+		437402E52B9DE22F004A6441 /* gdfontl.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402A32B9DE22F004A6441 /* gdfontl.h */; };
+		437402E62B9DE22F004A6441 /* gd_gif_out.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402A42B9DE22F004A6441 /* gd_gif_out.c */; };
+		437402E72B9DE22F004A6441 /* gd_heif.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402A52B9DE22F004A6441 /* gd_heif.c */; };
+		437402E82B9DE22F004A6441 /* gd.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402A62B9DE22F004A6441 /* gd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437402E92B9DE22F004A6441 /* gd_webp.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402A72B9DE22F004A6441 /* gd_webp.c */; };
+		437402EA2B9DE22F004A6441 /* gdfonts.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402A82B9DE22F004A6441 /* gdfonts.h */; };
+		437402EB2B9DE22F004A6441 /* gd_color_map.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402A92B9DE22F004A6441 /* gd_color_map.h */; };
+		437402EC2B9DE22F004A6441 /* wbmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402AA2B9DE22F004A6441 /* wbmp.h */; };
+		437402ED2B9DE22F004A6441 /* gdfontmb.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402AB2B9DE22F004A6441 /* gdfontmb.c */; };
+		437402EE2B9DE22F004A6441 /* gd_tga.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402AC2B9DE22F004A6441 /* gd_tga.h */; };
+		437402EF2B9DE22F004A6441 /* gdfontg.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402AD2B9DE22F004A6441 /* gdfontg.c */; };
+		437402F02B9DE22F004A6441 /* gdhelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402AE2B9DE22F004A6441 /* gdhelpers.h */; };
+		437402F12B9DE22F004A6441 /* gd_io_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402AF2B9DE22F004A6441 /* gd_io_file.c */; };
+		437402F22B9DE22F004A6441 /* gd_gd2.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402B02B9DE22F004A6441 /* gd_gd2.c */; };
+		437402F32B9DE22F004A6441 /* gd_io.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402B12B9DE22F004A6441 /* gd_io.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437402F42B9DE22F004A6441 /* gd_color.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402B22B9DE22F004A6441 /* gd_color.h */; };
+		437402F52B9DE22F004A6441 /* gd_gif_in.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402B32B9DE22F004A6441 /* gd_gif_in.c */; };
+		437402F62B9DE22F004A6441 /* gd_wbmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402B42B9DE22F004A6441 /* gd_wbmp.c */; };
+		437402F72B9DE22F004A6441 /* gd_gd.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402B52B9DE22F004A6441 /* gd_gd.c */; };
+		437402F82B9DE22F004A6441 /* gd_xbm.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402B62B9DE22F004A6441 /* gd_xbm.c */; };
+		437402F92B9DE22F004A6441 /* gdfontt.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402B72B9DE22F004A6441 /* gdfontt.c */; };
+		437402FA2B9DE22F004A6441 /* gd_io_ss.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402B82B9DE22F004A6441 /* gd_io_ss.c */; };
+		437402FB2B9DE22F004A6441 /* gd_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402B92B9DE22F004A6441 /* gd_filter.c */; };
+		437402FC2B9DE22F004A6441 /* gd_interpolation.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402BA2B9DE22F004A6441 /* gd_interpolation.c */; };
+		437402FD2B9DE22F004A6441 /* gd_io_stream.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 437402BB2B9DE22F004A6441 /* gd_io_stream.cxx */; };
+		437402FE2B9DE22F004A6441 /* gd_security.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402BC2B9DE22F004A6441 /* gd_security.c */; };
+		437402FF2B9DE22F004A6441 /* gd_jpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402BD2B9DE22F004A6441 /* gd_jpeg.c */; };
+		437403002B9DE22F004A6441 /* gd_transform.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402BE2B9DE22F004A6441 /* gd_transform.c */; };
+		437403012B9DE22F004A6441 /* gd_io_dp.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402BF2B9DE22F004A6441 /* gd_io_dp.c */; };
+		437403022B9DE22F004A6441 /* gdfontl.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402C02B9DE22F004A6441 /* gdfontl.c */; };
+		437403032B9DE22F004A6441 /* gd.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402C12B9DE22F004A6441 /* gd.c */; };
+		437403042B9DE22F004A6441 /* gd_nnquant.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402C22B9DE22F004A6441 /* gd_nnquant.c */; };
+		437403052B9DE22F004A6441 /* gdcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402C32B9DE22F004A6441 /* gdcache.c */; };
+		437403062B9DE22F004A6441 /* gd_color_match.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402C42B9DE22F004A6441 /* gd_color_match.c */; };
+		437403072B9DE22F004A6441 /* gd_crop.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402C52B9DE22F004A6441 /* gd_crop.c */; };
+		437403082B9DE22F004A6441 /* gdfx.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402C62B9DE22F004A6441 /* gdfx.c */; };
+		437403092B9DE22F004A6441 /* gd_avif.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402C72B9DE22F004A6441 /* gd_avif.c */; };
+		4374030A2B9DE22F004A6441 /* gd_tga.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402C82B9DE22F004A6441 /* gd_tga.c */; };
+		4374030B2B9DE22F004A6441 /* wbmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402C92B9DE22F004A6441 /* wbmp.c */; };
+		4374030C2B9DE22F004A6441 /* gd_png.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402CA2B9DE22F004A6441 /* gd_png.c */; };
+		4374030D2B9DE22F004A6441 /* gdkanji.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402CB2B9DE22F004A6441 /* gdkanji.c */; };
+		4374030E2B9DE22F004A6441 /* gdfontmb.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402CC2B9DE22F004A6441 /* gdfontmb.h */; };
+		4374030F2B9DE22F004A6441 /* gd_rotate.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402CD2B9DE22F004A6441 /* gd_rotate.c */; };
+		437403102B9DE22F004A6441 /* gdfonts.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402CE2B9DE22F004A6441 /* gdfonts.c */; };
+		437403112B9DE22F004A6441 /* gd_color_map.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402CF2B9DE22F004A6441 /* gd_color_map.c */; };
+		437403122B9DE22F004A6441 /* gd_io_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402D02B9DE22F004A6441 /* gd_io_stream.h */; };
+		437403132B9DE22F004A6441 /* gdtables.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402D12B9DE22F004A6441 /* gdtables.c */; };
+		437403142B9DE22F004A6441 /* gd_color.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402D22B9DE22F004A6441 /* gd_color.c */; };
+		437403152B9DE22F004A6441 /* gd_bmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402D32B9DE22F004A6441 /* gd_bmp.c */; };
+		437403162B9DE22F004A6441 /* gd_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402D42B9DE22F004A6441 /* gd_io.c */; };
+		437403172B9DE22F004A6441 /* gd_version.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402D52B9DE22F004A6441 /* gd_version.c */; };
+		437403182B9DE22F004A6441 /* gdhelpers.c in Sources */ = {isa = PBXBuildFile; fileRef = 437402D62B9DE22F004A6441 /* gdhelpers.c */; };
+		437403192B9DE22F004A6441 /* gdpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402D72B9DE22F004A6441 /* gdpp.h */; };
+		4374031A2B9DE22F004A6441 /* gdfontg.h in Headers */ = {isa = PBXBuildFile; fileRef = 437402D82B9DE22F004A6441 /* gdfontg.h */; };
+		4374031B2B9DE22F004A6441 /* gdpp.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 437402D92B9DE22F004A6441 /* gdpp.cxx */; };
+		4374031E2B9DE28A004A6441 /* gd_intern.h in Headers */ = {isa = PBXBuildFile; fileRef = 4374031C2B9DE28A004A6441 /* gd_intern.h */; };
+		4374031F2B9DE28A004A6441 /* gd_errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 4374031D2B9DE28A004A6441 /* gd_errors.h */; };
+		437403262B9DEF39004A6441 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 437403252B9DEF39004A6441 /* config.h */; };
+		437403282B9DF2FB004A6441 /* bmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 437403272B9DF2FB004A6441 /* bmp.h */; };
+		437403592B9E1D96004A6441 /* libtpng.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437403582B9E1D96004A6441 /* libtpng.xcframework */; };
+		4374035A2B9E1D96004A6441 /* libtpng.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 437403582B9E1D96004A6441 /* libtpng.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4374035F2B9E2207004A6441 /* libtjpeg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4374035E2B9E2207004A6441 /* libtjpeg.xcframework */; };
+		437403602B9E2207004A6441 /* libtjpeg.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4374035E2B9E2207004A6441 /* libtjpeg.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		43744EE62B9DD2E1005D3856 /* libtgd.h in Headers */ = {isa = PBXBuildFile; fileRef = 43744EE52B9DD2E1005D3856 /* libtgd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		437403492B9DFED2004A6441 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				437403602B9E2207004A6441 /* libtjpeg.xcframework in Embed Frameworks */,
+				4374035A2B9E1D96004A6441 /* libtpng.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		437402982B9DE22F004A6441 /* gd_ss.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_ss.c; sourceTree = "<group>"; };
+		437402992B9DE22F004A6441 /* gd_filename.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_filename.c; sourceTree = "<group>"; };
+		4374029A2B9DE22F004A6441 /* gd_matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_matrix.c; sourceTree = "<group>"; };
+		4374029B2B9DE22F004A6441 /* gd_tiff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_tiff.c; sourceTree = "<group>"; };
+		4374029C2B9DE22F004A6441 /* gdfontt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gdfontt.h; sourceTree = "<group>"; };
+		4374029D2B9DE22F004A6441 /* gd_topal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_topal.c; sourceTree = "<group>"; };
+		4374029E2B9DE22F004A6441 /* gdfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gdfx.h; sourceTree = "<group>"; };
+		4374029F2B9DE22F004A6441 /* gdxpm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdxpm.c; sourceTree = "<group>"; };
+		437402A02B9DE22F004A6441 /* gd_nnquant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gd_nnquant.h; sourceTree = "<group>"; };
+		437402A12B9DE22F004A6441 /* gdft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdft.c; sourceTree = "<group>"; };
+		437402A22B9DE22F004A6441 /* gdcache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gdcache.h; sourceTree = "<group>"; };
+		437402A32B9DE22F004A6441 /* gdfontl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gdfontl.h; sourceTree = "<group>"; };
+		437402A42B9DE22F004A6441 /* gd_gif_out.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_gif_out.c; sourceTree = "<group>"; };
+		437402A52B9DE22F004A6441 /* gd_heif.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_heif.c; sourceTree = "<group>"; };
+		437402A62B9DE22F004A6441 /* gd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gd.h; sourceTree = "<group>"; };
+		437402A72B9DE22F004A6441 /* gd_webp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_webp.c; sourceTree = "<group>"; };
+		437402A82B9DE22F004A6441 /* gdfonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gdfonts.h; sourceTree = "<group>"; };
+		437402A92B9DE22F004A6441 /* gd_color_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gd_color_map.h; sourceTree = "<group>"; };
+		437402AA2B9DE22F004A6441 /* wbmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbmp.h; sourceTree = "<group>"; };
+		437402AB2B9DE22F004A6441 /* gdfontmb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdfontmb.c; sourceTree = "<group>"; };
+		437402AC2B9DE22F004A6441 /* gd_tga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gd_tga.h; sourceTree = "<group>"; };
+		437402AD2B9DE22F004A6441 /* gdfontg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdfontg.c; sourceTree = "<group>"; };
+		437402AE2B9DE22F004A6441 /* gdhelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gdhelpers.h; sourceTree = "<group>"; };
+		437402AF2B9DE22F004A6441 /* gd_io_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_io_file.c; sourceTree = "<group>"; };
+		437402B02B9DE22F004A6441 /* gd_gd2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_gd2.c; sourceTree = "<group>"; };
+		437402B12B9DE22F004A6441 /* gd_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gd_io.h; sourceTree = "<group>"; };
+		437402B22B9DE22F004A6441 /* gd_color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gd_color.h; sourceTree = "<group>"; };
+		437402B32B9DE22F004A6441 /* gd_gif_in.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_gif_in.c; sourceTree = "<group>"; };
+		437402B42B9DE22F004A6441 /* gd_wbmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_wbmp.c; sourceTree = "<group>"; };
+		437402B52B9DE22F004A6441 /* gd_gd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_gd.c; sourceTree = "<group>"; };
+		437402B62B9DE22F004A6441 /* gd_xbm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_xbm.c; sourceTree = "<group>"; };
+		437402B72B9DE22F004A6441 /* gdfontt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdfontt.c; sourceTree = "<group>"; };
+		437402B82B9DE22F004A6441 /* gd_io_ss.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_io_ss.c; sourceTree = "<group>"; };
+		437402B92B9DE22F004A6441 /* gd_filter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_filter.c; sourceTree = "<group>"; };
+		437402BA2B9DE22F004A6441 /* gd_interpolation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_interpolation.c; sourceTree = "<group>"; };
+		437402BB2B9DE22F004A6441 /* gd_io_stream.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gd_io_stream.cxx; sourceTree = "<group>"; };
+		437402BC2B9DE22F004A6441 /* gd_security.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_security.c; sourceTree = "<group>"; };
+		437402BD2B9DE22F004A6441 /* gd_jpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_jpeg.c; sourceTree = "<group>"; };
+		437402BE2B9DE22F004A6441 /* gd_transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_transform.c; sourceTree = "<group>"; };
+		437402BF2B9DE22F004A6441 /* gd_io_dp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_io_dp.c; sourceTree = "<group>"; };
+		437402C02B9DE22F004A6441 /* gdfontl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdfontl.c; sourceTree = "<group>"; };
+		437402C12B9DE22F004A6441 /* gd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd.c; sourceTree = "<group>"; };
+		437402C22B9DE22F004A6441 /* gd_nnquant.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_nnquant.c; sourceTree = "<group>"; };
+		437402C32B9DE22F004A6441 /* gdcache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdcache.c; sourceTree = "<group>"; };
+		437402C42B9DE22F004A6441 /* gd_color_match.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_color_match.c; sourceTree = "<group>"; };
+		437402C52B9DE22F004A6441 /* gd_crop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_crop.c; sourceTree = "<group>"; };
+		437402C62B9DE22F004A6441 /* gdfx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdfx.c; sourceTree = "<group>"; };
+		437402C72B9DE22F004A6441 /* gd_avif.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_avif.c; sourceTree = "<group>"; };
+		437402C82B9DE22F004A6441 /* gd_tga.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_tga.c; sourceTree = "<group>"; };
+		437402C92B9DE22F004A6441 /* wbmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wbmp.c; sourceTree = "<group>"; };
+		437402CA2B9DE22F004A6441 /* gd_png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_png.c; sourceTree = "<group>"; };
+		437402CB2B9DE22F004A6441 /* gdkanji.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdkanji.c; sourceTree = "<group>"; };
+		437402CC2B9DE22F004A6441 /* gdfontmb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gdfontmb.h; sourceTree = "<group>"; };
+		437402CD2B9DE22F004A6441 /* gd_rotate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_rotate.c; sourceTree = "<group>"; };
+		437402CE2B9DE22F004A6441 /* gdfonts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdfonts.c; sourceTree = "<group>"; };
+		437402CF2B9DE22F004A6441 /* gd_color_map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_color_map.c; sourceTree = "<group>"; };
+		437402D02B9DE22F004A6441 /* gd_io_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gd_io_stream.h; sourceTree = "<group>"; };
+		437402D12B9DE22F004A6441 /* gdtables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdtables.c; sourceTree = "<group>"; };
+		437402D22B9DE22F004A6441 /* gd_color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_color.c; sourceTree = "<group>"; };
+		437402D32B9DE22F004A6441 /* gd_bmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_bmp.c; sourceTree = "<group>"; };
+		437402D42B9DE22F004A6441 /* gd_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_io.c; sourceTree = "<group>"; };
+		437402D52B9DE22F004A6441 /* gd_version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gd_version.c; sourceTree = "<group>"; };
+		437402D62B9DE22F004A6441 /* gdhelpers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gdhelpers.c; sourceTree = "<group>"; };
+		437402D72B9DE22F004A6441 /* gdpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gdpp.h; sourceTree = "<group>"; };
+		437402D82B9DE22F004A6441 /* gdfontg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gdfontg.h; sourceTree = "<group>"; };
+		437402D92B9DE22F004A6441 /* gdpp.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gdpp.cxx; sourceTree = "<group>"; };
+		4374031C2B9DE28A004A6441 /* gd_intern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gd_intern.h; sourceTree = "<group>"; };
+		4374031D2B9DE28A004A6441 /* gd_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gd_errors.h; sourceTree = "<group>"; };
+		437403252B9DEF39004A6441 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		437403272B9DF2FB004A6441 /* bmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmp.h; sourceTree = "<group>"; };
+		437403582B9E1D96004A6441 /* libtpng.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libtpng.xcframework; path = ../libtpng/Deliverables/Release/libtpng/libtpng.xcframework; sourceTree = "<group>"; };
+		4374035E2B9E2207004A6441 /* libtjpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libtjpeg.xcframework; path = ../libtjpeg/Deliverables/Release/libtjpeg/libtjpeg.xcframework; sourceTree = "<group>"; };
 		43744EE22B9DD2E1005D3856 /* libtgd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libtgd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43744EE52B9DD2E1005D3856 /* libtgd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libtgd.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -20,17 +181,106 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4374035F2B9E2207004A6441 /* libtjpeg.xcframework in Frameworks */,
+				437403592B9E1D96004A6441 /* libtpng.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		437402972B9DE22F004A6441 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				437402C72B9DE22F004A6441 /* gd_avif.c */,
+				437403252B9DEF39004A6441 /* config.h */,
+				437403272B9DF2FB004A6441 /* bmp.h */,
+				437402D32B9DE22F004A6441 /* gd_bmp.c */,
+				437402CF2B9DE22F004A6441 /* gd_color_map.c */,
+				437402A92B9DE22F004A6441 /* gd_color_map.h */,
+				437402C42B9DE22F004A6441 /* gd_color_match.c */,
+				437402D22B9DE22F004A6441 /* gd_color.c */,
+				437402B22B9DE22F004A6441 /* gd_color.h */,
+				437402C52B9DE22F004A6441 /* gd_crop.c */,
+				4374031D2B9DE28A004A6441 /* gd_errors.h */,
+				437402992B9DE22F004A6441 /* gd_filename.c */,
+				437402B92B9DE22F004A6441 /* gd_filter.c */,
+				437402B52B9DE22F004A6441 /* gd_gd.c */,
+				437402B02B9DE22F004A6441 /* gd_gd2.c */,
+				437402B32B9DE22F004A6441 /* gd_gif_in.c */,
+				437402A42B9DE22F004A6441 /* gd_gif_out.c */,
+				437402A52B9DE22F004A6441 /* gd_heif.c */,
+				4374031C2B9DE28A004A6441 /* gd_intern.h */,
+				437402BA2B9DE22F004A6441 /* gd_interpolation.c */,
+				437402BF2B9DE22F004A6441 /* gd_io_dp.c */,
+				437402AF2B9DE22F004A6441 /* gd_io_file.c */,
+				437402B82B9DE22F004A6441 /* gd_io_ss.c */,
+				437402BB2B9DE22F004A6441 /* gd_io_stream.cxx */,
+				437402D02B9DE22F004A6441 /* gd_io_stream.h */,
+				437402D42B9DE22F004A6441 /* gd_io.c */,
+				437402B12B9DE22F004A6441 /* gd_io.h */,
+				437402BD2B9DE22F004A6441 /* gd_jpeg.c */,
+				4374029A2B9DE22F004A6441 /* gd_matrix.c */,
+				437402C22B9DE22F004A6441 /* gd_nnquant.c */,
+				437402A02B9DE22F004A6441 /* gd_nnquant.h */,
+				437402CA2B9DE22F004A6441 /* gd_png.c */,
+				437402CD2B9DE22F004A6441 /* gd_rotate.c */,
+				437402BC2B9DE22F004A6441 /* gd_security.c */,
+				437402982B9DE22F004A6441 /* gd_ss.c */,
+				437402C82B9DE22F004A6441 /* gd_tga.c */,
+				437402AC2B9DE22F004A6441 /* gd_tga.h */,
+				4374029B2B9DE22F004A6441 /* gd_tiff.c */,
+				4374029D2B9DE22F004A6441 /* gd_topal.c */,
+				437402BE2B9DE22F004A6441 /* gd_transform.c */,
+				437402D52B9DE22F004A6441 /* gd_version.c */,
+				437402B42B9DE22F004A6441 /* gd_wbmp.c */,
+				437402A72B9DE22F004A6441 /* gd_webp.c */,
+				437402B62B9DE22F004A6441 /* gd_xbm.c */,
+				437402C12B9DE22F004A6441 /* gd.c */,
+				437402A62B9DE22F004A6441 /* gd.h */,
+				437402C32B9DE22F004A6441 /* gdcache.c */,
+				437402A22B9DE22F004A6441 /* gdcache.h */,
+				437402AD2B9DE22F004A6441 /* gdfontg.c */,
+				437402D82B9DE22F004A6441 /* gdfontg.h */,
+				437402C02B9DE22F004A6441 /* gdfontl.c */,
+				437402A32B9DE22F004A6441 /* gdfontl.h */,
+				437402AB2B9DE22F004A6441 /* gdfontmb.c */,
+				437402CC2B9DE22F004A6441 /* gdfontmb.h */,
+				437402CE2B9DE22F004A6441 /* gdfonts.c */,
+				437402A82B9DE22F004A6441 /* gdfonts.h */,
+				437402B72B9DE22F004A6441 /* gdfontt.c */,
+				4374029C2B9DE22F004A6441 /* gdfontt.h */,
+				437402A12B9DE22F004A6441 /* gdft.c */,
+				437402C62B9DE22F004A6441 /* gdfx.c */,
+				4374029E2B9DE22F004A6441 /* gdfx.h */,
+				437402D62B9DE22F004A6441 /* gdhelpers.c */,
+				437402AE2B9DE22F004A6441 /* gdhelpers.h */,
+				437402CB2B9DE22F004A6441 /* gdkanji.c */,
+				437402D92B9DE22F004A6441 /* gdpp.cxx */,
+				437402D72B9DE22F004A6441 /* gdpp.h */,
+				437402D12B9DE22F004A6441 /* gdtables.c */,
+				4374029F2B9DE22F004A6441 /* gdxpm.c */,
+				437402C92B9DE22F004A6441 /* wbmp.c */,
+				437402AA2B9DE22F004A6441 /* wbmp.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		437403292B9DF47A004A6441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4374035E2B9E2207004A6441 /* libtjpeg.xcframework */,
+				437403582B9E1D96004A6441 /* libtpng.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		43744ED82B9DD2E1005D3856 = {
 			isa = PBXGroup;
 			children = (
 				43744EE42B9DD2E1005D3856 /* libtgd */,
 				43744EE32B9DD2E1005D3856 /* Products */,
+				437403292B9DF47A004A6441 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				43744EE52B9DD2E1005D3856 /* libtgd.h */,
+				437402972B9DE22F004A6441 /* src */,
 			);
 			path = libtgd;
 			sourceTree = "<group>";
@@ -57,7 +308,28 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437402E02B9DE22F004A6441 /* gdfx.h in Headers */,
+				437402F32B9DE22F004A6441 /* gd_io.h in Headers */,
+				437402E82B9DE22F004A6441 /* gd.h in Headers */,
+				437403282B9DF2FB004A6441 /* bmp.h in Headers */,
+				437403122B9DE22F004A6441 /* gd_io_stream.h in Headers */,
+				437402EC2B9DE22F004A6441 /* wbmp.h in Headers */,
+				437402EB2B9DE22F004A6441 /* gd_color_map.h in Headers */,
+				437403262B9DEF39004A6441 /* config.h in Headers */,
+				4374030E2B9DE22F004A6441 /* gdfontmb.h in Headers */,
 				43744EE62B9DD2E1005D3856 /* libtgd.h in Headers */,
+				437402E52B9DE22F004A6441 /* gdfontl.h in Headers */,
+				437402E22B9DE22F004A6441 /* gd_nnquant.h in Headers */,
+				437402F42B9DE22F004A6441 /* gd_color.h in Headers */,
+				4374031A2B9DE22F004A6441 /* gdfontg.h in Headers */,
+				437402EA2B9DE22F004A6441 /* gdfonts.h in Headers */,
+				4374031F2B9DE28A004A6441 /* gd_errors.h in Headers */,
+				437402F02B9DE22F004A6441 /* gdhelpers.h in Headers */,
+				437403192B9DE22F004A6441 /* gdpp.h in Headers */,
+				4374031E2B9DE28A004A6441 /* gd_intern.h in Headers */,
+				437402DE2B9DE22F004A6441 /* gdfontt.h in Headers */,
+				437402E42B9DE22F004A6441 /* gdcache.h in Headers */,
+				437402EE2B9DE22F004A6441 /* gd_tga.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +344,7 @@
 				43744EDE2B9DD2E1005D3856 /* Sources */,
 				43744EDF2B9DD2E1005D3856 /* Frameworks */,
 				43744EE02B9DD2E1005D3856 /* Resources */,
+				437403492B9DFED2004A6441 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +402,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437403042B9DE22F004A6441 /* gd_nnquant.c in Sources */,
+				437402FF2B9DE22F004A6441 /* gd_jpeg.c in Sources */,
+				437402E12B9DE22F004A6441 /* gdxpm.c in Sources */,
+				437402E72B9DE22F004A6441 /* gd_heif.c in Sources */,
+				4374030C2B9DE22F004A6441 /* gd_png.c in Sources */,
+				437403072B9DE22F004A6441 /* gd_crop.c in Sources */,
+				437402E32B9DE22F004A6441 /* gdft.c in Sources */,
+				437403052B9DE22F004A6441 /* gdcache.c in Sources */,
+				437402DA2B9DE22F004A6441 /* gd_ss.c in Sources */,
+				437402DD2B9DE22F004A6441 /* gd_tiff.c in Sources */,
+				437403182B9DE22F004A6441 /* gdhelpers.c in Sources */,
+				437402F12B9DE22F004A6441 /* gd_io_file.c in Sources */,
+				437403132B9DE22F004A6441 /* gdtables.c in Sources */,
+				437403172B9DE22F004A6441 /* gd_version.c in Sources */,
+				437402F82B9DE22F004A6441 /* gd_xbm.c in Sources */,
+				4374030A2B9DE22F004A6441 /* gd_tga.c in Sources */,
+				4374031B2B9DE22F004A6441 /* gdpp.cxx in Sources */,
+				437402FD2B9DE22F004A6441 /* gd_io_stream.cxx in Sources */,
+				437402FE2B9DE22F004A6441 /* gd_security.c in Sources */,
+				437402E62B9DE22F004A6441 /* gd_gif_out.c in Sources */,
+				437402ED2B9DE22F004A6441 /* gdfontmb.c in Sources */,
+				437403162B9DE22F004A6441 /* gd_io.c in Sources */,
+				437402EF2B9DE22F004A6441 /* gdfontg.c in Sources */,
+				437403002B9DE22F004A6441 /* gd_transform.c in Sources */,
+				437403152B9DE22F004A6441 /* gd_bmp.c in Sources */,
+				437402FB2B9DE22F004A6441 /* gd_filter.c in Sources */,
+				437403082B9DE22F004A6441 /* gdfx.c in Sources */,
+				437402DC2B9DE22F004A6441 /* gd_matrix.c in Sources */,
+				437403022B9DE22F004A6441 /* gdfontl.c in Sources */,
+				437403032B9DE22F004A6441 /* gd.c in Sources */,
+				437403092B9DE22F004A6441 /* gd_avif.c in Sources */,
+				437402F72B9DE22F004A6441 /* gd_gd.c in Sources */,
+				437403012B9DE22F004A6441 /* gd_io_dp.c in Sources */,
+				437403142B9DE22F004A6441 /* gd_color.c in Sources */,
+				437403062B9DE22F004A6441 /* gd_color_match.c in Sources */,
+				437402F62B9DE22F004A6441 /* gd_wbmp.c in Sources */,
+				4374030B2B9DE22F004A6441 /* wbmp.c in Sources */,
+				437402F52B9DE22F004A6441 /* gd_gif_in.c in Sources */,
+				4374030D2B9DE22F004A6441 /* gdkanji.c in Sources */,
+				437402FA2B9DE22F004A6441 /* gd_io_ss.c in Sources */,
+				437402DB2B9DE22F004A6441 /* gd_filename.c in Sources */,
+				437402E92B9DE22F004A6441 /* gd_webp.c in Sources */,
+				437402F22B9DE22F004A6441 /* gd_gd2.c in Sources */,
+				437403102B9DE22F004A6441 /* gdfonts.c in Sources */,
+				437402F92B9DE22F004A6441 /* gdfontt.c in Sources */,
+				4374030F2B9DE22F004A6441 /* gd_rotate.c in Sources */,
+				437402DF2B9DE22F004A6441 /* gd_topal.c in Sources */,
+				437402FC2B9DE22F004A6441 /* gd_interpolation.c in Sources */,
+				437403112B9DE22F004A6441 /* gd_color_map.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +580,7 @@
 		43744EEA2B9DD2E1005D3856 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -265,8 +588,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_MODULE_VERIFIER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"HAVE_CONFIG_H=1",
+					"PLATFORM_ID=\"Darwin\"",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -282,6 +612,11 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = (
+					"-lresolv",
+					"-liconv",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tootzoe.libtgd;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
@@ -296,6 +631,7 @@
 		43744EEB2B9DD2E1005D3856 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -303,8 +639,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_MODULE_VERIFIER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_CONFIG_H=1",
+					"PLATFORM_ID=\"Darwin\"",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -320,6 +661,11 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = (
+					"-lresolv",
+					"-liconv",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tootzoe.libtgd;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
